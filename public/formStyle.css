@@ -1,0 +1,15 @@
+label{
+    font-size: 1.2em;
+}
+.form-capsule{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.form-box{
+    border-style:inset;
+    border-color: aquamarine;
+    border-radius: 2rem;
+    padding: 5rem;
+}

@@ -23,19 +23,13 @@
           id="inputNumOfDigits"
         />
       </div>
-      <div class="mb-3">
-        <label for="inputSeparator" class="form-label">
-          Enter a separator you want in the username
-        </label>
-        <input
-          type="text"
-          class="form-control"
-          name="inputSeparator"
-          id="inputSeparator"
-        />
-      </div>
       <button type="submit" class="btn btn-primary">Submit</button>
     </form>
+    <% if(locals.username){ %>
+      <div class="username">
+        <h2>Your username: <%= username %></h2>
+      </div>
+      <% } %>
   </div>
 </div>
 <%- include("partials/footer.ejs") %>
